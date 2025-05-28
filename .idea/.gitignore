@@ -1,0 +1,27 @@
+# Ignore arquivos de build e cache
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+
+# Arquivos de Android Studio
+.idea/
+*.iml
+*.iws
+
+# Cache e arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
+*.log
+
+# Arquivos do sistema FTC SDK
+ftc_app/.settings/
+ftc_app/local.properties
+ftc_app/.project
+ftc_app/.classpath
+
+# Arquivos sensíveis
+keys.properties
+*.keystore
